@@ -1,4 +1,6 @@
-package creational_patterns.factory_method;
+package creational_patterns.factory_method.truck;
+
+import creational_patterns.factory_method.Logistic;
 
 public class Truck implements Logistic {
 

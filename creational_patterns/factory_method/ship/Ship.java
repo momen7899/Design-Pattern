@@ -1,6 +1,8 @@
-package creational_patterns.factory_method;
+package creational_patterns.factory_method.ship;
 
-public class Ship implements Logistic{
+import creational_patterns.factory_method.Logistic;
+
+public class Ship implements Logistic {
     @Override
     public void load() {
         System.out.println("Ship load is done");
